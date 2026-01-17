@@ -5,7 +5,7 @@ header('Content-Type: application/json');
 
 // Ini cuma buat testing, JANGAN PAKE API KEY LANGSUNG DI SINI DI PRODUCTION!
 // Pake environment variable atau cara aman lainnya.
-define('ATLANTIC_API_KEY', 'YOUR_API_KEY_DISINI'); [cite_start]// Ganti dengan API Key Anda [cite: 80, 81]
+define('ATLANTIC_API_KEY', 'raKBVBoZhQzNYA1dvOVzdTc1ED5iXe2fiQcv42GcoJ3ciRD7Ll8NJbRpc2QjOFiQxF2kjSCVccEWcBQDtcNevtZMj9L5K1PS3STS'); [cite_start]// Ganti dengan API Key Anda [cite: 80, 81]
 define('ATLANTIC_API_URL', 'https://atlantich2h.com'); [cite_start]// [cite: 5]
 
 $productName = $_POST['product_name'] ?? 'Unknown Product';
